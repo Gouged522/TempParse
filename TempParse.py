@@ -4,6 +4,7 @@ import time
 from datetime import datetime
 import textwrap
 
+#Gets unix timestamp
 now = datetime.now()
 dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
 
